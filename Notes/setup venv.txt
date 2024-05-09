@@ -1,0 +1,17 @@
+Backend:
+
+cd "/home/dev/mytodo/todo-app-chakra-ui"
+mkdir .venv
+pipenv install
+pipenv shell
+pipenv install django
+pipenv install djangorestframework
+pipenv install django-cors-headers
+pipenv install django-filter
+cd backend/
+python manage.py runserver
+
+
+*******************************
+
+start project:

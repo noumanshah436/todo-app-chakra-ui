@@ -1,0 +1,15 @@
+
+backend:
+
+$ cd "/home/dev/mytodo/todo-app-chakra-ui"
+$ pipenv shell
+$ cd backend/
+$ python manage.py runserver
+
+*******************************
+
+frontend:
+
+$ cd /home/dev/mytodo/todo-app-chakra-ui/frontend/
+$ npm i
+$ npm run dev
